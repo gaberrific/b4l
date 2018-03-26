@@ -1,0 +1,17 @@
+{
+  "name": "b4l",
+  "version": "1.0",
+  "description": "🌲👽🌲",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
